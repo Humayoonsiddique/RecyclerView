@@ -1,0 +1,70 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        >
+
+    <TextView
+        android:id="@+id/alertdialog_title"
+        android:layout_width="match_parent"
+        android:background="@android:color/holo_blue_dark"
+        android:textColor="@android:color/black"
+        android:layout_height="50dp"
+        android:text="@string/first_and_last_name"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:gravity="center"/>
+    <EditText
+        android:id="@+id/first_name"
+        android:layout_below="@+id/alertdialog_title"
+        android:inputType="text"
+        android:textColorHint="@android:color/black"
+        android:textColor="@android:color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginBottom="4dp"
+        android:hint="@string/first_name" />
+
+    <EditText
+        android:id="@+id/last_name"
+        android:inputType="text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/first_name"
+        android:textColorHint="@android:color/black"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginBottom="4dp"
+        android:hint="@string/last_name" />
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         android:layout_below="@+id/last_name"
+        android:layout_centerHorizontal="true">
+<Button
+    android:id="@+id/cancel"
+    android:layout_width="wrap_content"
+    android:layout_height="40dp"
+    android:text="@string/cancel"
+    android:textStyle="bold"
+    android:background="@android:color/holo_red_dark"/>
+    <Button
+        android:id="@+id/ok"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="@string/ADD"
+        android:textStyle="bold"
+        android:background="@android:color/holo_green_dark"
+        android:layout_toRightOf="@+id/cancel"
+        android:layout_marginLeft="60dp"/>
+    </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

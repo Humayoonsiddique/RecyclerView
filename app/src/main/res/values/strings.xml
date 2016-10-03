@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Recycler View</string>
+    <string name="action_settings">Settings</string>
+    <string name="First_LastName1">Siddique,Humayoon</string>
+    <string name="First_LastName2">Farooq,Umer</string>
+    <string name="First_LastName3">Akhtar,Zohaib</string>
+    <string name="First_LastName4">Akhtar,Atizaz</string>
+    <string name="First_LastName5">Alam,Naveed</string>
+    <string name="First_LastName6">Sajid,Usama</string>
+    <string name="First_LastName7">Masood,Umair</string>
+    <string name="First_LastName8">Mehmood,Nasir</string>
+    <string name="DialogTitle">Alert Dialog Fragment</string>
+    <string name="first_and_last_name">First And Last Name</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="cancel">Cancel</string>
+    <string name="ADD">ADD</string>
+</resources>

@@ -1,0 +1,4 @@
+in project main folder a new folder names "deploy" which have keystore of that project
+and kestore password is 
+challenge 
+for you can create a new signed apk of that project.
